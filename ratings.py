@@ -27,6 +27,9 @@ def restaurant_ratings(filename):
 
     return restaurant_dict
 
+def user_choice():
+    choice = raw_input("Would you like to:\n1. See all ratings\n2. Add new restaurant\n3. quit")
+
 
 
 def user_input_restaurant(restaurant_dict):
@@ -43,6 +46,8 @@ def user_input_restaurant(restaurant_dict):
 
         else:
             print "Not a valid rating. Please input number"
+
+
 
 
 
